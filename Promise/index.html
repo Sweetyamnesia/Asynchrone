@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge : Promise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background">
+    <img src="check_username.png" class="img">
+    <form action="/ma-page-de-traitement" method="post">
+        <label for="username"> Username</label>
+        <input type="text" id="username" username ="username" class="input" required/>
+        <button class="styled" type="button">Check Username</button>
+        
+        <div class="cercle">
+            <span class="loader" id="loader" style="display: none;"></span>
+        </div>
+    </form>
+
+    <p id="message" class="message"></p>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
