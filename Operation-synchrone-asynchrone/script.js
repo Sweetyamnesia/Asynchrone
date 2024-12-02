@@ -8,7 +8,6 @@ function operationSynchrone () {
 
 console.log("Début de l'opération synchrone");
 setTimeout(() => {
-    console.log("Transforme moi en code asynchrone pour que je m'exécute en dernier");
-}, 100000000)
-operationSynchrone();
+    operationSynchrone();
+}, 0);
 console.log("Fin de l'opération synchrone");
