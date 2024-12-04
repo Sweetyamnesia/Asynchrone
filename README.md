@@ -40,11 +40,18 @@ Dans ce challenge, nous avons transformé une opération bloquante (par exemple,
 ## 3. Création d'une Promise
 Ce challenge consistait à créer une Promise personnalisée, avec gestion des résolutions (resolve) et rejets (reject). L'objectif était de comprendre comment les promesses gèrent les tâches asynchrones et comment les utiliser dans des scénarios réels.
 
+![Promise](https://github.com/Sweetyamnesia/Asynchrone/blob/main/Images/Promise-ezgif.com-video-to-gif-converter.gif?raw=true)
+
+
 ## 4. Promesses chaînées et Callback Hell
 L'objectif ici était de manipuler les promesses dans un flux logique. Nous avons transformé un exemple de "callback hell" (enchaînement de callbacks imbriqués) en une version utilisant des promesses chaînées, afin d'améliorer la lisibilité et la gestion des erreurs.
 
+![Promise-chain-callback-hell](https://github.com/Sweetyamnesia/Asynchrone/blob/main/Images/Promises-chainees-callback-hell-ezgif.com-video-to-gif-converter.gif?raw=true)
+
 ## 5. Utilisation d'Async/Await avec gestion des erreurs
 Ce challenge a simplifié l'utilisation des promesses en utilisant async/await, rendant le code plus lisible et facile à maintenir. De plus, la gestion des erreurs a été améliorée en utilisant un bloc try/catch, afin de capter les exceptions dans un environnement asynchrone.
+
+![Async-await-try-catch](https://github.com/Sweetyamnesia/Asynchrone/blob/main/Images/Async-await-Try-catch-ezgif.com-video-to-gif-converter.gif?raw=true)
 
 ## 6. La boucle d'événements
 Ce challenge a permis de visualiser la priorité entre les différentes tâches asynchrones dans la boucle d'événements de JavaScript. Nous avons exploré la différence de traitement entre un setTimeout et une promesse. L'objectif était de comprendre comment JavaScript exécute les tâches synchrones et asynchrones dans une file d'attente (queue) et une pile (stack), et comment les micro-tâches et macro-tâches sont traitées.
